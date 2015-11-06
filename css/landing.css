@@ -1,0 +1,113 @@
+/***********************
+GENERAL: Base Styles
+************************/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:hover,
+a:visited {
+  color: #fff;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/***********************
+Header Area
+************************/
+
+.main-header {
+  padding-top: 170px;
+  width: 100%;
+  height: 867px;
+   background: linear-gradient(#bb5755, transparent 90%),
+              linear-gradient(0deg, #630408, transparent),
+              #bb5755 url('../img/catpeople.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.title {
+  font-family: 'Federo', sans-serif;
+  color: #fff;
+  font-size: 1.625rem; /* 26px/16px */
+  letter-spacing: .065em;
+  font-weight: 200;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+}
+
+.primary-content,
+.main-header,
+.main-footer {
+  text-align: center;
+}
+
+.arrow {
+  width: 50px;
+  margin-top: -250px;
+}
+
+/***********************
+Headings
+************************/
+
+h1 {
+  font-family: 'Joti One', sans-serif;
+  margin: 15px 0;
+  font-size: 5.625rem;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+h2 {
+  font-family: 'Joti One', sans-serif;
+  font-size: 3.3125em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.25em; /* 20px/16px  */
+  color: #48525c;
+  line-height: 1.2;
+  margin-bottom: 1.7em; /* 34px */
+}
+
+/***********************
+Footer
+************************/
+
+footer p {
+  color: #aaa;
+}
+
+.main-footer {
+  font-family: 'Federo', sans-serif;
+  width: 100%;
+  font-size: 0.9em;
+  text-align: center;
+  clear: both;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #111;
+  border-bottom: 10px solid #dd0000;
+}

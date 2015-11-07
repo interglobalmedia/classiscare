@@ -49,7 +49,7 @@ Main Styles
   padding-top: 170px;
   width: 100%;
   height: 867px;
-   background: linear-gradient(#bb5755, transparent 90%),
+  background: linear-gradient(#bb5755, transparent 90%),
               linear-gradient(0deg, #630408, transparent),
               #bb5755 url('../img/catpeople.jpg') no-repeat center;
   background-size: cover;
@@ -112,7 +112,7 @@ Layout Styles
   max-width: 960px;
 }
 
-.wildlife {
+.central-focus {
   color: white;
   text-align: left;
   padding: 0;
@@ -133,7 +133,7 @@ Layout Styles
 Floated Columns
 ************************/
 
-.resorts,
+.deals,
 .tips {
   width: 46.5%;
 }
@@ -142,7 +142,7 @@ Floated Columns
   float: left;
 }
 
-.resorts {
+.deals {
   float: right;
 }
 

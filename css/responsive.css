@@ -1,0 +1,122 @@
+  @media screen and (max-width: 479px) {
+
+    /***********************
+    Headings
+    ************************/
+
+    h1 {
+      font-size: 4rem;
+      padding-top: 20px;
+    }
+
+    h2 {
+      font-size: 2.75rem;
+    }
+
+    p {
+      font-size: 0.875rem;
+    }
+
+    /***********************
+    Main Styles
+    ************************/
+
+    .main-header {
+      padding-top: 125px;
+    }
+
+    .title {
+      font-size: 1.1rem;
+      letter-spacing: .05em;
+      margin: 20px auto 0;
+      line-height: 1.8;
+      border-bottom: 2px solid #dd0000;
+    }
+
+    .callout {
+      margin-top: 0;
+    }
+
+    .t-border {
+      border-top: none;
+    }
+
+    /************************
+    Layout Styles
+    ************************/
+    
+    .primary-content,
+    .secondary-content {
+      width: 90%;
+      padding: 0;
+      margin: 40px 5% 0;
+    }
+
+    .central-focus {
+      width: 95%;
+      margin: 60px 2.5%;
+    }
+
+    .arrow {
+      display: none;
+    }
+
+    /***********************
+    Floated Columns
+    ************************/
+
+    .tips,
+    .deals {
+      width: 95%;
+      margin: 5% 2.5%;
+      float: none;
+    }
+  }
+
+  @media screen and (min-width: 480px) {
+
+    /***********************
+    Headings
+    ************************/
+
+    h1 {
+      font-size: 4rem;
+      padding-top: 10px;
+    }
+
+    /***********************
+    Main Styles
+    ************************/
+
+    .main-header {
+      padding-top: 130px;
+    }
+
+    .title {
+      font-size: 1.2rem;
+      letter-spacing: .05em;
+    }
+
+    /************************
+    Layout Styles
+    ************************/
+
+    .arrow {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 550px) {
+
+  h1 {
+    font-size: 5.625rem;
+    padding-top: 10px;
+  }
+
+  .title {
+    font-size: 1.625rem; /* 26px/16px */
+    margin: 0 auto;
+  }
+
+}
+

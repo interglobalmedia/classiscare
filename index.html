@@ -3,14 +3,37 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maria D. Campbell | Photographer | Front End Web Developer</title>
+    <title>ClassiScare | Experience The Origins of Terror in Film</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link href='https://fonts.googleapis.com/css?family=Federo|Joti+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="./css/drawer.min.css">
   </head>
-  <body>
-    <header id="top" class="main-header">
+  <body class="drawer drawer-right drawer-navbar drawer-fixed drawer-responsive drawer-close">
+    <header role="banner" id="top" class="main-header">
+      <div class="drawer-header">
+        <button type="button" class="drawer-toggle drawer-hamburger">
+          <span class="sr-only">toggle-navigation</span>
+          <span class="drawer-hamburger-icon"></span>
+        </button>
+      </div>
+      <div class="drawer-main drawer-navbar-default">
+        <nav class="drawer-nav group" role="navigation">
+        <h2 class="navheader slide-trigger">Menu <span></span></h2>
+          <div class="drawer-brand"><a href="./">Drawer</a></div>
+          <ul class="drawer-menu navigation group">
+            <li class="drawer-menu-item"><a href="index.html">Home</a></li>
+              <li class="drawer-menu-item"><a href="hammer.html">Hammer</a></li>
+              <li class="drawer-menu-item"><a href="silent.html">Silent</a></li>
+              <li class="drawer-menu-item"><a href="universal.html">Universal</a></li>
+              <li class="drawer-menu-item selected"><a href="demo.html">Val Lewton</a></li>
+          </ul>
+          <div class="drawer-footer">
+            <span></span>
+          </div>
+        </nav>
+      </div>
       <a href="val-lewton.html">
         <span class="title">Experience the Origins of Terror in Film</span>
         <h1>ClassiScare</h1></a>
@@ -65,5 +88,6 @@
       <a href="#top">Back to top &raquo;</a>
     </footer>
     <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="js/drawer.js"></script>
   </body>
 </html>

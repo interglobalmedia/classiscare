@@ -893,7 +893,7 @@ Main Styles
 ************************/
 
 .main-header {
-  padding-top: 20px;
+  padding-top: 25px;
   width: 100%;
   height: 350px;
   background: linear-gradient(#bb5755, transparent 90%),
@@ -977,7 +977,11 @@ Layout Styles
   background: #434a52 url('../img/gify1.gif') no-repeat center;
   background-size: cover;
   box-shadow: inset 0 0 50px 10px rgba(0,0,0, .8);
-  border-radius: 10px;
+  border-radius: 2.5%;
+}
+
+.central-focus img {
+  border-radius: 0 0 1% 1%;
 }
 
 .arrow {

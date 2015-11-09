@@ -13,7 +13,7 @@
     font-size: 2.75rem;
   }
 
-  p {
+  /*p {
     font-size: 1rem;
   }
 
@@ -27,7 +27,7 @@
 
   .title {
     font-size: 1.1rem;
-    letter-spacing: .05em;
+    letter-spacing: .05rem;
     margin: 20px auto 0;
     line-height: 1.8;
     border-bottom: 2px solid #dd0000;
@@ -154,7 +154,7 @@ Headings
   }
 
   h2 {
-    font-size: 3.3125em;
+    font-size: 3.3125rem;
   }
 
   /***********************
@@ -175,22 +175,7 @@ Headings
   }
 } 
 
-  @media screen and (max-width: 600px) {
-
-  #my-menu {
-    display: none !important;
-  }
-}
-
-  @media (min-width: 601px) {
-
-  #mm-my-menu,
-  #my-mobile-menu {
-    display: none !important;
-  }
-}
-
-  @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
   /***********************
   Responsive Menu Styling
@@ -254,17 +239,17 @@ Headings
 
   .primary-content {
     padding-top: 25px;
-    padding-bottom: 95px;
+    padding-bottom: 60px;
   }
 
   .secondary-content {
-    padding-top: 80px;
-    padding-bottom: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     border-bottom: 1px solid #fff;
   }
 
   .callout {
-    font-size: 1.25em;
+    font-size: 1.25rem;
     border-bottom: 3px solid #dd0000;
     padding: 0 9px 3px;
     margin-top: 20px;
@@ -330,6 +315,13 @@ floated Clearfix
     content: "";
     display: table;
     clear: both;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    padding: 0;
+    margin: 0;
   }
 }
 

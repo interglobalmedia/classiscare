@@ -1,10 +1,3 @@
-
-// attach our plug-in to the toggle button when the document is ready
-
-$(document).ready(function(){
-    $('.slide-trigger').collapsable();
-});
-
 // Call The Drawer
 
 $(document).ready(function() {
@@ -15,55 +8,33 @@ $(document).ready(function() {
 
 // Option
 $(".drawer").drawer({
-  apiToggleClass: "element"
+  apiToggleClass: "drawer-toggle"
 });
 
 // Open
-$('.element').on(function)() {
+$('.drawer').on("click", function() {
   $('.drawer').drawer('open');
 });
 
 // close
-$('.element').on(function)() {
+$('.drawer').on(function() {
   $('.drawer').drawer('close');
 });
 
 // toggle
-$('.element').on(function)() {
+$('.drawer-toggle').on(function() {
   $('.drawer').drawer('toggle');
 });
 
 // destroy
-$('.element').on(function)() {
+$('.drawer').on(function() {
   $('.drawer').drawer('destroy');
 });
 
 // Events
 
 // Opened
-$('#element').on('drawer.opened');
+$('#drawer').on('drawer.opened');
 
 // Closed
-$('#element').on('drawer.closed');
-
-// Configuring the iScroll
-
-var drawerScroll = new IScroll("."+options.mastaClass, {
-  mouseWheel:true,
-  preventDefault: false
-});
-
-// Dropdown seletor
-
-var nav = '.drawer-nav';
-
-// Dropdown hover
-
-$('.drawer-dropdown-hover').hover(function(){ 
-  $('[data-toggle="dropdown"]', this).trigger('click'); 
-});
-
-
-
-  
-
+$('#drawer').on('drawer.closed');

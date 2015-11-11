@@ -8,9 +8,9 @@ GENERAL: Base Styles
 
 body {
   font-family: 'Federo', sans-serif;
-  background: linear-gradient(#bb4a42, transparent 90%),
-              linear-gradient(0deg, #630408, transparent),
-              #bb4a42;
+  background: linear-gradient(#339933, transparent 90%),
+              linear-gradient(0deg, red, transparent),
+              #339933;
   margin: 0;
   padding: 0;
 }
@@ -59,13 +59,13 @@ Responsive Menu Styling
 
 .navigation li a {
   display: block;
-  color: #fff;
+  color: #888;
   padding: 10px;
 }
 
-/*.navigation li a:hover {
-  background: #0fcaf2;
-}*/
+.navigation li a:hover {
+  background: #eee;
+}
 
 /* Toggle Styling */
 
@@ -112,7 +112,7 @@ h2 {
 
 h3 {
   font-size: 1.25rem; /* 20px/16px  */
-  color: #48525c;
+  color: #000000; /*changed*/
   line-height: 1.2;
   margin-bottom: 1.7em; /* 34px */
 }
@@ -125,15 +125,18 @@ Main Styles
   padding-top: 25px;
   width: 100%;
   height: 350px;
-  background: linear-gradient(#bb5755, transparent 90%),
-              linear-gradient(0deg, #630408, transparent),
-              #bb5755 url('../img/catpeople.jpg') no-repeat center;
+  background: url('../img/hammer-castle.jpg') no-repeat center;
   background-size: cover;
+  color: #e5e600;
+}
+
+.classiscare {
+  color: #e5e600;
 }
 
 .title {
   font-family: 'Federo', sans-serif;
-  color: #111;
+  color: #e5e600;
   font-size: 1.625rem; /* 26px/16px */
   letter-spacing: .065em;
   font-weight: 200;

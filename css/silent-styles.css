@@ -8,9 +8,9 @@ GENERAL: Base Styles
 
 body {
   font-family: 'Federo', sans-serif;
-  background: linear-gradient(#bb4a42, transparent 90%),
-              linear-gradient(0deg, #630408, transparent),
-              #bb4a42;
+  background: linear-gradient(#ffb31c, transparent 90%),
+              linear-gradient(0deg, #d28c00, transparent),
+              #ffb31c;
   margin: 0;
   padding: 0;
 }
@@ -59,37 +59,17 @@ Responsive Menu Styling
 
 .navigation li a {
   display: block;
-  color: #fff;
+  color: #888;
   padding: 10px;
 }
 
-/*.navigation li a:hover {
-  background: #0fcaf2;
-}*/
+.navigation li a:hover {
+ background: #eee;
+}
 
 /* Toggle Styling */
 
-.navheader { 
-  font-size: 12px;
-}
 
-.slide-trigger {
-  display: none; /* need this */
-  border: 1px solid #CCCCCC;
-  cursor: pointer;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-.slide-trigger span {
-  background-image: url("/a/i/dropdown-arrows.png");
-  background-position: 0 -14px;
-  display: block;
-  float: right;
-  margin-top: 3px;
-  height: 14px;
-  width: 32px;
-}
 
 /***********************
 Headings
@@ -125,15 +105,16 @@ Main Styles
   padding-top: 25px;
   width: 100%;
   height: 350px;
-  background: linear-gradient(#bb5755, transparent 90%),
-              linear-gradient(0deg, #630408, transparent),
-              #bb5755 url('../img/catpeople.jpg') no-repeat center;
+  background: url('../img/nosferatu.png') no-repeat center;
   background-size: cover;
 }
 
+.classiscare {
+  color: #5cd65c;
+}
 .title {
   font-family: 'Federo', sans-serif;
-  color: #111;
+  color: #5cd65c;
   font-size: 1.625rem; /* 26px/16px */
   letter-spacing: .065em;
   font-weight: 200;

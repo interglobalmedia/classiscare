@@ -8,9 +8,9 @@ GENERAL: Base Styles
 
 body {
   font-family: 'Federo', sans-serif;
-  background: linear-gradient(#bb4a42, transparent 90%),
-              linear-gradient(0deg, #630408, transparent),
-              #bb4a42;
+  background: linear-gradient(#222222, transparent 90%),
+              linear-gradient(0deg, #000000, transparent),
+              #222222;
   margin: 0;
   padding: 0;
 }
@@ -59,13 +59,13 @@ Responsive Menu Styling
 
 .navigation li a {
   display: block;
-  color: #fff;
+  color: #888;
   padding: 10px;
 }
 
-/*.navigation li a:hover {
-  background: #0fcaf2;
-}*/
+.navigation li a:hover {
+  background: #eee;
+}
 
 /* Toggle Styling */
 
@@ -95,6 +95,9 @@ Responsive Menu Styling
 Headings
 ************************/
 
+h1, h2, h3, p, .more, .callout {
+  color: #dadada;
+}
 h1 {
   font-family: 'Joti One', sans-serif;
   margin: 15px 0;
@@ -112,7 +115,6 @@ h2 {
 
 h3 {
   font-size: 1.25rem; /* 20px/16px  */
-  color: #48525c;
   line-height: 1.2;
   margin-bottom: 1.7em; /* 34px */
 }
@@ -125,19 +127,17 @@ Main Styles
   padding-top: 25px;
   width: 100%;
   height: 350px;
-  background: linear-gradient(#bb5755, transparent 90%),
-              linear-gradient(0deg, #630408, transparent),
-              #bb5755 url('../img/catpeople.jpg') no-repeat center;
+  background: url('../img/wolfman1838.jpg') no-repeat center;
   background-size: cover;
 }
 
 .title {
   font-family: 'Federo', sans-serif;
-  color: #111;
+  color: #ffffff;
   font-size: 1.625rem; /* 26px/16px */
   letter-spacing: .065em;
   font-weight: 200;
-  border-bottom: 2px solid #dd0000;
+  border-bottom: 2px solid #dadada;
   margin-left: -20px;
   padding-bottom: 10px;
 }
@@ -165,19 +165,19 @@ Main Styles
 .secondary-content {
   padding-top: 40px;
   padding-bottom: 40px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #dadada;
 }
 
 .callout {
   font-size: 1.25rem;
-  border-bottom: 3px solid #dd0000;
+  border-bottom: 3px solid #dadada;
   padding: 0 9px 3px;
   margin-top: 20px;
   display: inline-block;
 }
 
 .t-border {
-  border-top: 2px solid #dd0000;
+  border-top: 2px solid #dadada;
 }
 
 .more {
@@ -201,7 +201,7 @@ Layout Styles
   color: white;
   text-align: left;
   padding: 0;
-  border-top: 10px solid #dd0000;
+  border-top: 5px solid #dadada;
   margin: 20px auto;
   background: #434a52 url('../img/gify1.gif') no-repeat center;
   background-size: cover;
@@ -273,6 +273,5 @@ footer a:visited {
   margin: 0 auto;
   color: #fff;
   background-color: #111;
-  border-bottom: 10px solid #dd0000;
+  border-bottom: 10px solid #dadada;
 }
-

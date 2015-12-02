@@ -14,4 +14,9 @@ $(document).ready(function() {
 // to see what they do. Maybe we'll do it as a group!
 $('.drawer').drawer({
   apiToggleClass: "drawer-toggle"
+  mastaClass: "drawer-main",
+  upperClass: "drawer-overlay-upper",
+  openClass:  "drawer-open",
+  closeClass: "drawer-close",
+  responsiveClass: "drawer-responsive"
 });
